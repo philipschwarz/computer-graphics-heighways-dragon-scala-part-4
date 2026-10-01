@@ -4,5 +4,6 @@ ThisBuild / scalaVersion := "3.7.0"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "computer-graphics-heighways-dragon-scala-part-4"
+    name := "computer-graphics-heighways-dragon-scala-part-4",
+    libraryDependencies ++= Seq("org.typelevel" %% "cats-core" % "2.13.0")
   )
